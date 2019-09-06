@@ -222,6 +222,7 @@ footer p {
 .quote .pseudo {
 	font-weight: bold;
 	color: white;
+	padding-bottom: 10px;
 }
 
 /* IMAGES */
