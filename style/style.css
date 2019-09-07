@@ -141,11 +141,17 @@ footer {
 
 #the-end img {
 	display: block;
-	height: 450px;
 	position: absolute;
 	bottom: 50px;
 	left: 50%;
+	height: 450px;	
 	margin-left: -225px;
+}
+@media screen and (max-height: 860px) {
+	#the-end img {
+		height: 350px;
+		margin-left: -175px;
+	}	
 }
 
 #the-end h2 {
